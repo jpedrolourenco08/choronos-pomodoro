@@ -1,0 +1,8 @@
+.heading{
+  background: var(--primary);
+}
+
+.heading_children{
+  background: rgb(240, 115, 219);
+  color: purple;
+}
