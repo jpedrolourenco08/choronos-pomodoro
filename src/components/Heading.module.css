@@ -1,8 +1,6 @@
 .heading{
-  background: var(--primary);
-}
-
-.heading_children{
-  background: rgb(240, 115, 219);
-  color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
