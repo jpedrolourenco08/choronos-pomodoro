@@ -6,6 +6,7 @@ import { Container } from "./components/Container/index";
 import { Logo } from "./components/Logo";
 import { Menu } from "./components/Menu";
 import { CountDown } from "./components/CountDown";
+import { DefaultInput } from "./components/DefaultInput";
 
 export function App(){
   return (
@@ -20,6 +21,10 @@ export function App(){
 
        <Container>
           <CountDown/>
+      </Container>
+
+      <Container>
+        <DefaultInput id="meuInput" type="text"/>
       </Container>
     </>
   )
