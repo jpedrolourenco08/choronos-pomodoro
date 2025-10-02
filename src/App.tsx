@@ -24,7 +24,20 @@ export function App(){
       </Container>
 
       <Container>
-        <DefaultInput id="meuInput" type="text"/>
+        <form className="form" action="">
+          <div className="formRow">
+            <DefaultInput labelText="Tempo" id="meuInput" type="text" placeholder="Digite aqui"/>
+          </div>
+
+          <div className="formRow">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div className="formRow">
+            <p>Ciclos</p>
+            <p>0 0 0 0 0</p>
+          </div>
+        </form>
       </Container>
     </>
   )
